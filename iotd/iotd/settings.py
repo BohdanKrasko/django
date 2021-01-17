@@ -58,9 +58,9 @@ WSGI_APPLICATION = 'iotd.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'iotd',
-        'USER': 'iotd',
-        'PASSWORD': 'iotd',
+        'NAME': 'dbname',
+        'USER': 'root',
+        'PASSWORD': 'root',
         'HOST' : 'localhost',
         'PORT' : '5432',
     }
